@@ -1,0 +1,77 @@
+body {
+  margin:0;
+background: linear-gradient(#4BA3C3,#CCE6F4);
+  height: 100vh;
+}
+
+
+.content{
+}
+.container{
+  display: flex;
+}
+
+.logo-font {
+  
+}
+
+.image-1{
+  height: auto;
+  width: 100%;
+}
+
+.item-1{
+  flex:1;
+}
+
+.top-header {
+  display:flex;
+  padding: 5%;
+  background: linear-gradient(#D62839,#BA324F);
+  height: 35vh;
+}
+
+.slogan{
+  padding-left: 10%;
+  font-family: 'Karma', serif;
+}
+
+.logo{
+  color: white;
+  font-size: 2.5em;
+  font-family: 'Mina', sans-serif;
+}
+
+.b-s{
+  box-shadow: 10px 10px #39393A;
+}
+.footer{
+  position:absolute;
+  bottom:0;
+  right:0;
+  padding-right: 1%;
+  font-family: 'Rammetto One', cursive;
+}
+
+
+.coming-soon{
+   font-size: 2.5em;
+  font-family: 'Mina', sans-serif;
+}
+
+.content-padding{
+  padding-right: 10%;
+}
+
+.app{
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.t-right{
+  text-align:right;
+}
+
+.t-center{
+  text-align:center;
+}

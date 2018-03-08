@@ -1,2 +1,1 @@
-# CMPE195-HTML
-CMPE 195 ReactJS Code
+Only need index.html and js/bundle.js to render the page.
