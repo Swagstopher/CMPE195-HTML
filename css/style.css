@@ -29,6 +29,46 @@ background: linear-gradient(#4BA3C3,#CCE6F4);
   padding: 5%;
   background: linear-gradient(#D62839,#BA324F);
   height: 35vh;
+  animation: go-up 2s 1;
+}
+
+.bottom-content{
+   animation: appear 3s 1;
+}
+
+.bottom-content-2{
+   animation: appear 4s 1;
+}
+
+@keyframes appear{
+  0%{
+    opacity:0;
+  }
+  75%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+@keyframes go-up{
+  0%{
+    height: 100vh;
+  }
+  100%{
+    height: 35vh;
+  }
+}
+
+.splash-text{
+  animation: text-smaller 2s 1;
+}
+
+@keyframes text-smaller{
+  0%{
+    font-size: 150%;
+  }
 }
 
 .slogan{
@@ -40,11 +80,36 @@ background: linear-gradient(#4BA3C3,#CCE6F4);
   color: white;
   font-size: 2.5em;
   font-family: 'Mina', sans-serif;
+  animation: fade-in 2s 1;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity:0;
+  } 
+  50%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
 }
 
 .b-s{
-  box-shadow: 10px 10px #39393A;
+  animation: shadow 1s 1;
+        box-shadow: 1em 1em #39393A;
 }
+
+@keyframes shadow {
+  0%{
+      box-shadow: 0em 0em #39393A;
+  }
+  100%{
+      box-shadow: 1em 1em #39393A;
+
+  }
+}
+
 .footer{
   position:absolute;
   bottom:0;
